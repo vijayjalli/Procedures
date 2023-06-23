@@ -1,4 +1,4 @@
-create or replace PROCEDURE PROFIT_LOSS_CALCULATOR(price in number)
+create or replace PROCEDURE PROFIT_LOSS_CALCULATOR(price in number,basic_price in number)
 IS
 PRICE_ SALES_TGT.PRICE%TYPE;
 BASIC_PRICE_ SALES_TGT.BASIC_PRICE%TYPE;
